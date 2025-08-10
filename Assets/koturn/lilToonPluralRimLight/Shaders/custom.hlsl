@@ -2,12 +2,52 @@
 // Macro
 
 // Custom variables
-//#define LIL_CUSTOM_PROPERTIES \
-//    float _CustomVariable;
-#define LIL_CUSTOM_PROPERTIES
+#define LIL_CUSTOM_PROPERTIES \
+    lilBool _UseRim2nd; \
+    float4 _Rim2ndColor; \
+    float4 _Rim2ndColorTex_ST; \
+    float4 _Rim2ndIndirColor; \
+    float _Rim2ndNormalStrength; \
+    float _Rim2ndBorder; \
+    float _Rim2ndBlur; \
+    float _Rim2ndFresnelPower; \
+    float _Rim2ndEnableLighting; \
+    float _Rim2ndShadowMask; \
+    float _Rim2ndVRParallaxStrength; \
+    float _Rim2ndBackfaceMask; \
+    float _Rim2ndMainStrength; \
+    float _Rim2ndDirStrength; \
+    float _Rim2ndDirRange; \
+    float _Rim2ndIndirRange; \
+    float _Rim2ndIndirBorder; \
+    float _Rim2ndIndirBlur; \
+    uint _Rim2ndBlendMode; \
+    lilBool _Rim2ndApplyTransparency; \
+    lilBool _UseRim3rd; \
+    float4 _Rim3rdColor; \
+    float4 _Rim3rdColorTex_ST; \
+    float4 _Rim3rdIndirColor; \
+    float _Rim3rdNormalStrength; \
+    float _Rim3rdBorder; \
+    float _Rim3rdBlur; \
+    float _Rim3rdFresnelPower; \
+    float _Rim3rdEnableLighting; \
+    float _Rim3rdShadowMask; \
+    float _Rim3rdVRParallaxStrength; \
+    float _Rim3rdBackfaceMask; \
+    float _Rim3rdMainStrength; \
+    float _Rim3rdDirStrength; \
+    float _Rim3rdDirRange; \
+    float _Rim3rdIndirRange; \
+    float _Rim3rdIndirBorder; \
+    float _Rim3rdIndirBlur; \
+    uint _Rim3rdBlendMode; \
+    lilBool _Rim3rdApplyTransparency;
 
 // Custom textures
-#define LIL_CUSTOM_TEXTURES
+#define LIL_CUSTOM_TEXTURES \
+    TEXTURE2D(_Rim2ndColorTex); \
+    TEXTURE2D(_Rim3rdColorTex);
 
 // Add vertex shader input
 //#define LIL_REQUIRE_APP_POSITION

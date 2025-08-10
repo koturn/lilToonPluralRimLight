@@ -1,0 +1,4 @@
+Language	English	Japanese	Korean	Chinese Simplified	Chinese Traditional
+sCustomShaderTitle	Multi Rim Light	マルチリムライト	멀티 림 라이트	多边框灯	多邊燈
+sRimLight2nd	Rim Light 2nd	リムライト2nd	림 라이트 2세대	轮毂灯 第二代	第2種鋼圈燈
+sRimLight3rd	Rim Light 3rd	リムライト3rd	림 라이트 3세대	轮毂灯 第三代	第3種鋼圈燈

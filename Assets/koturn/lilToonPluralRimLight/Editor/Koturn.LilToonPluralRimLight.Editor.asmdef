@@ -1,8 +1,8 @@
 {
-    "name": "TemplateFull",
-    "rootNamespace": "",
+    "name": "Koturn.LilToonPluralRimLight.Editor",
+    "rootNamespace": "Koturn.LilToonPluralRimLight.Editor",
     "references": [
-        "lilToon.Editor"
+        "GUID:e7f0f8dffe955d640bbc76d1d4f4986e"
     ],
     "includePlatforms": [
         "Editor"

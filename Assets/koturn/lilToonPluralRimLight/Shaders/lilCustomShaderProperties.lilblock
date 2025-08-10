@@ -1,0 +1,46 @@
+
+        //----------------------------------------------------------------------------------------------------------------------
+        // Custom Properties
+        // Rim Light 2nd
+        [lilToggleLeft] _UseRim2nd                  ("sRimLight2nd", Int) = 0
+        [lilHDR]        _Rim2ndColor                ("sColor", Color) = (0.66,0.5,0.48,1)
+        [NoScaleOffset] _Rim2ndColorTex             ("Texture", 2D) = "white" {}
+                        _Rim2ndMainStrength         ("sMainColorPower", Range(0, 1)) = 0
+                        _Rim2ndNormalStrength       ("sNormalStrength", Range(0, 1)) = 1.0
+                        _Rim2ndBorder               ("sBorder", Range(0, 1)) = 0.5
+                        _Rim2ndBlur                 ("sBlur", Range(0, 1)) = 0.65
+        [PowerSlider(3.0)]_Rim2ndFresnelPower       ("sFresnelPower", Range(0.01, 50)) = 3.5
+                        _Rim2ndEnableLighting       ("sEnableLighting", Range(0, 1)) = 1
+                        _Rim2ndShadowMask           ("sShadowMask", Range(0, 1)) = 0.5
+        [lilToggle]     _Rim2ndBackfaceMask         ("sBackfaceMask", Int) = 1
+                        _Rim2ndVRParallaxStrength   ("sVRParallaxStrength", Range(0, 1)) = 1
+        [lilToggle]     _Rim2ndApplyTransparency    ("sApplyTransparency", Int) = 1
+                        _Rim2ndDirStrength          ("sRimLightDirection", Range(0, 1)) = 0
+                        _Rim2ndDirRange             ("sRimDirectionRange", Range(-1, 1)) = 0
+                        _Rim2ndIndirRange           ("sRimIndirectionRange", Range(-1, 1)) = 0
+        [lilHDR]        _Rim2ndIndirColor           ("sColor", Color) = (1,1,1,1)
+                        _Rim2ndIndirBorder          ("sBorder", Range(0, 1)) = 0.5
+                        _Rim2ndIndirBlur            ("sBlur", Range(0, 1)) = 0.1
+        [lilEnum]       _Rim2ndBlendMode            ("sBlendModes", Int) = 1
+
+        // Rim Light 3rd
+        [lilToggleLeft] _UseRim3rd                  ("sRimLight3rd", Int) = 0
+        [lilHDR]        _Rim3rdColor                ("sColor", Color) = (0.66,0.5,0.48,1)
+        [NoScaleOffset] _Rim3rdColorTex             ("Texture", 2D) = "white" {}
+                        _Rim3rdMainStrength         ("sMainColorPower", Range(0, 1)) = 0
+                        _Rim3rdNormalStrength       ("sNormalStrength", Range(0, 1)) = 1.0
+                        _Rim3rdBorder               ("sBorder", Range(0, 1)) = 0.5
+                        _Rim3rdBlur                 ("sBlur", Range(0, 1)) = 0.65
+        [PowerSlider(3.0)]_Rim3rdFresnelPower       ("sFresnelPower", Range(0.01, 50)) = 3.5
+                        _Rim3rdEnableLighting       ("sEnableLighting", Range(0, 1)) = 1
+                        _Rim3rdShadowMask           ("sShadowMask", Range(0, 1)) = 0.5
+        [lilToggle]     _Rim3rdBackfaceMask         ("sBackfaceMask", Int) = 1
+                        _Rim3rdVRParallaxStrength   ("sVRParallaxStrength", Range(0, 1)) = 1
+        [lilToggle]     _Rim3rdApplyTransparency    ("sApplyTransparency", Int) = 1
+                        _Rim3rdDirStrength          ("sRimLightDirection", Range(0, 1)) = 0
+                        _Rim3rdDirRange             ("sRimDirectionRange", Range(-1, 1)) = 0
+                        _Rim3rdIndirRange           ("sRimIndirectionRange", Range(-1, 1)) = 0
+        [lilHDR]        _Rim3rdIndirColor           ("sColor", Color) = (1,1,1,1)
+                        _Rim3rdIndirBorder          ("sBorder", Range(0, 1)) = 0.5
+                        _Rim3rdIndirBlur            ("sBlur", Range(0, 1)) = 0.1
+        [lilEnum]       _Rim3rdBlendMode            ("sBlendModes", Int) = 1
