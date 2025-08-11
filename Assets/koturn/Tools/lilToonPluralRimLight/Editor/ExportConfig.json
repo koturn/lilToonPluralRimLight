@@ -1,0 +1,13 @@
+{
+  "Packages": [
+    {
+      "UnityPackageName": "lilToonPluralRimLight.unitypackage",
+      "VpmName": "jp.koturn.liltoonpluralrimlight",
+      "Assets": [
+        {
+          "BasePath": "Assets/koturn/lilToonPluralRimLight"
+        }
+      ]
+    }
+  ]
+}
